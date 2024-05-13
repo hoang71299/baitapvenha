@@ -4,7 +4,7 @@ const Error = (props) => {
   const renderError =()=>{
     if(Object.keys(errors).length > 0){
       return Object.keys(errors).map((key,index)=>(
-        <p key={index}>{errors[key]}</p>
+        <p className="text-danger"  key={index}>{errors[key]}</p>
       ))
     }
   }
