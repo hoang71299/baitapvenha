@@ -107,7 +107,7 @@ function Register() {
     <>
       <div className="vh-100 d-flex flex-column  justify-content-center">
         <div className="row d-flex justify-content-center mt-5 ">
-          <div className="col-lg-6">
+          <div className="col-lg-5">
             <div className="card">
               <div className="card-header">
                 <h2 className="text-secondary text-center">Đăng ký</h2>
@@ -120,12 +120,12 @@ function Register() {
                   encType="multipart/form-data"
                 >
                   <div className="row mb-3">
-                    <div className="col-lg-2">
+                    <div className="col-lg-3">
                       <label htmlFor="" className=" ">
                         Nhập email
                       </label>
                     </div>
-                    <div className="col-lg-10">
+                    <div className="col-lg-9">
                       <input
                         onChange={handleInput}
                         name="email"
@@ -136,12 +136,12 @@ function Register() {
                   </div>
 
                   <div className="row mb-3">
-                    <div className="col-lg-2">
+                    <div className="col-lg-3">
                       <label htmlFor="" className="text-nowrap ">
                         Nhập Password
                       </label>
                     </div>
-                    <div className="col-lg-10">
+                    <div className="col-lg-9">
                       <input
                         onChange={handleInput}
                         name="pass"
@@ -152,10 +152,10 @@ function Register() {
                   </div>
 
                   <div className="row mb-3">
-                    <div className="col-lg-2">
+                    <div className="col-lg-3">
                       <label htmlFor="">Chọn ảnh</label>
                     </div>
-                    <div className="col-lg-10">
+                    <div className="col-lg-9">
                       <input
                         onChange={hanldeFile}
                         name="file"
@@ -166,12 +166,12 @@ function Register() {
                   </div>
 
                   <div className="row mb-3">
-                    <div className="col-lg-2">
+                    <div className="col-lg-3">
                       <label htmlFor="" className="fs-6">
                         Vui lòng chọn giới tính
                       </label>
                     </div>
-                    <div className="col-lg-10">
+                    <div className="col-lg-9">
                       <select
                         onChange={handleInput}
                         name="gender"
