@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import Error from "./Error";
-import { json } from "react-router-dom";
 function Register() {
   const arr = [
     {
